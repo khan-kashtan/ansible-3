@@ -1,0 +1,6 @@
+---
+- name: Configure db host
+  hosts: stage_db, prod_db
+  become: yes
+  roles:
+    - db

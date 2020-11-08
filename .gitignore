@@ -1,0 +1,9 @@
+*.retry
+dynamo.gcp.yml
+ansible.cfg
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+.terraform
+vault.key
+roles/jdauphant.nginx
